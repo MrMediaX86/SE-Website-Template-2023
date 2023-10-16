@@ -1151,7 +1151,7 @@ figure.dotted-bg {
 #about-section {
   margin-top: 7rem; }
   #about-section .container {
-    background: #0389ff;
+    background: #E5E5E5;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
@@ -1669,3 +1669,16 @@ figure.dotted-bg {
       .site-footer .social li a:hover {
         background: #36a1ff;
         color: #ffffff; }
+
+.header-main-logo{
+     width: fit-content;
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+     order: 1; 
+}
+
+.header-main-logo img{
+     height: 40px;
+     align-self: center;
+}
