@@ -29,7 +29,15 @@
 	}
 	.site-navigation {
         
-		.site-menu {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          z-index: 9999;
+          background-color: #fff;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        
+        .site-menu {
 			
 			margin-bottom: 0;
 			> li {

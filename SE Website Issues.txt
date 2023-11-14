@@ -1,0 +1,7 @@
+
+SE Website Issues
+
+- Kuda scrolling
+- Logo must be visible from all pages of the website
+- Add my Gotham font??
+- White space under footer: There is a huge white space at the bottom of my website when I view it on mobile under the footer. Can I fix this on CSS or html?
