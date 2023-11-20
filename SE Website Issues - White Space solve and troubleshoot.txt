@@ -1,0 +1,22 @@
+White space under the footer when scrolling on mobile devices is a common issue. There are several reasons why this might happen, including margins added to the content inside the footer for desktop view, a scrollable content area in the footer, or a fixed position container⁵⁶⁷. 
+
+To fix this issue, you can try the following:
+
+1. **Disable Stretch Section**: If you're using Elementor, try disabling "Stretch Section" under Layout. Make sure you don't have a fixed width on this section or underlying inner sections and elements¹. (4)
+
+2. **Remove JS Function**: If you have a JS function that is causing the issue, try removing it. This may help fix the problem³. (5)
+
+3. **Set Wrapper Overflow to Hidden**: Turn wrapper overflow to hidden so the page does not scroll sideways. Change the height of your scroller section to 90vh (vh means view height, so it takes screen heights into consideration and fills 90% of it)⁴. (4)
+
+I hope this helps! Let me know if you have any other questions or if there's anything else I can help you with.
+
+Source: Conversation with Bing, 11/20/2023
+(1) undefined. https://stackoverflow.com/questions/35860577/blank-space-below-footer-in-mobile-view.
+(2) undefined. https://stackoverflow.com/questions/16584152/scrollable-content-inside-fixed-position-container.
+(3) undefined. https://www.smashingmagazine.com/2018/08/scroll-bouncing-websites/.
+(4) Elementor: Removing white space on mobile view. https://complianz.io/elementor-removing-white-space-on-mobile-view/.
+(5) White space on top and bottom when scrolling on mobile. https://stackoverflow.com/questions/55455568/white-space-on-top-and-bottom-when-scrolling-on-mobile.
+(6) How to get rid of the white space under the footer? HELP!. https://discourse.webflow.com/t/how-to-get-rid-of-the-white-space-under-the-footer-help/178036.
+(7) . https://bing.com/search?q=white+space+under+footer+when+scrolling+mobile.
+(8) undefined. https://stackoverflow.com/questions/39099295/make-div-stick-to-bottom-of-page.
+(9) undefined. https://www.hytalefrance.net.
